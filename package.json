@@ -28,6 +28,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lightgallery": "^2.7.2"
+		"photoswipe": "^5.4.3"
 	}
 }
