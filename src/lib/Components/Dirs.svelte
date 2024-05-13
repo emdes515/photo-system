@@ -22,6 +22,6 @@
 
 <div class="flex justify-start flex-wrap flex-grow">
 	{#each arrOfSubDirs as dir}
-		<Folder dirName={dir.name} dirPath={dir.path} {currentDirs} />
+		<Folder dirName={dir.name} dirPath={dir.path} {currentDirs} folderID={dir.id} />
 	{/each}
 </div>
